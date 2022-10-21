@@ -1,0 +1,891 @@
+2022-10-18 21:48:48 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-18 21:48:48 0 [Note] InnoDB: Uses event mutexes
+2022-10-18 21:48:48 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-18 21:48:48 0 [Note] InnoDB: Number of pools: 1
+2022-10-18 21:48:48 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-18 21:48:48 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-18 21:48:48 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-18 21:48:48 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=300288
+2022-10-18 21:48:48 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-18 21:48:48 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-18 21:48:48 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-18 21:48:48 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-18 21:48:48 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-18 21:48:48 0 [Note] InnoDB: Waiting for purge to start
+2022-10-18 21:48:48 0 [Note] InnoDB: 10.4.25 started; log sequence number 300297; transaction id 170
+2022-10-18 21:48:48 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-10-18 21:48:48 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-18 21:48:48 0 [Note] InnoDB: Buffer pool(s) load completed at 221018 21:48:48
+2022-10-18 21:48:48 0 [Note] Server socket created on IP: '::'.
+2022-10-21 17:35:18 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-21 17:35:18 0 [Note] InnoDB: Uses event mutexes
+2022-10-21 17:35:18 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-21 17:35:18 0 [Note] InnoDB: Number of pools: 1
+2022-10-21 17:35:18 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-21 17:35:18 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-21 17:35:18 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-21 17:35:18 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=2655452
+2022-10-21 17:35:18 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-21 17:35:18 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-21 17:35:18 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-21 17:35:18 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-21 17:35:18 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-21 17:35:18 0 [Note] InnoDB: Waiting for purge to start
+2022-10-21 17:35:18 0 [Note] InnoDB: 10.4.25 started; log sequence number 2655461; transaction id 1020
+2022-10-21 17:35:18 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-10-21 17:35:18 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-21 17:35:18 0 [Note] InnoDB: Buffer pool(s) load completed at 221021 17:35:18
+2022-10-21 17:35:18 0 [Note] Server socket created on IP: '::'.
+2022-10-21 17:58:21 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-21 17:58:21 0 [Note] InnoDB: Uses event mutexes
+2022-10-21 17:58:21 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-21 17:58:21 0 [Note] InnoDB: Number of pools: 1
+2022-10-21 17:58:21 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-21 17:58:21 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-21 17:58:21 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-21 17:58:21 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=6611025
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_commentmeta.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_commentmeta` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_comments.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_comments` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_links.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_links` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_options.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_options` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_postmeta.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_postmeta` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_posts.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_posts` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_relationships.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_relationships` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_termmeta.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_termmeta` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_terms.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_terms` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_usermeta.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_usermeta` because it could not be opened.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_users.ibd' OS error: 203
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 17:58:21 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 17:58:21 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 17:58:21 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_users` because it could not be opened.
+2022-10-21 17:58:21 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-21 17:58:21 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-21 17:58:21 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-21 17:58:21 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-21 17:58:21 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-21 17:58:21 0 [Note] InnoDB: Waiting for purge to start
+2022-10-21 17:58:21 0 [Note] InnoDB: 10.4.25 started; log sequence number 6611034; transaction id 2381
+2022-10-21 17:58:21 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-10-21 17:58:21 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-21 17:58:21 0 [Note] InnoDB: Buffer pool(s) load completed at 221021 17:58:21
+2022-10-21 17:58:21 0 [Note] Server socket created on IP: '::'.
+2022-10-21 18:03:57 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-21 18:03:57 0 [Note] InnoDB: Uses event mutexes
+2022-10-21 18:03:57 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-21 18:03:57 0 [Note] InnoDB: Number of pools: 1
+2022-10-21 18:03:57 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-21 18:03:57 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-21 18:03:57 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-21 18:03:57 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=10219940
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_comments.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_comments` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_links.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_links` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_options.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_options` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_posts.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_posts` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_terms.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_terms` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_users.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_users` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_comments.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_comments` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_links.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_links` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_options.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_options` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_posts.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_posts` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_terms.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_terms` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_users.ibd' OS error: 203
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_users` because it could not be opened.
+2022-10-21 18:03:57 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-21 18:03:57 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-21 18:03:57 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-21 18:03:57 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-21 18:03:57 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-21 18:03:57 0 [Note] InnoDB: Waiting for purge to start
+2022-10-21 18:03:57 3 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:03:57 3 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:03:57 3 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:03:57 3 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_options.ibd' OS error: 203
+2022-10-21 18:03:57 3 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:03:57 3 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:03:57 3 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:03:57 0 [Note] InnoDB: 10.4.25 started; log sequence number 10219949; transaction id 3855
+2022-10-21 18:03:57 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-10-21 18:03:57 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-21 18:03:57 0 [Note] Server socket created on IP: '::'.
+2022-10-21 18:18:53 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-21 18:18:53 0 [Note] InnoDB: Uses event mutexes
+2022-10-21 18:18:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-21 18:18:53 0 [Note] InnoDB: Number of pools: 1
+2022-10-21 18:18:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-21 18:18:53 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-21 18:18:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-21 18:18:53 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=13596397
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_comments.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_comments` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_links.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_links` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_options.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_options` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_posts.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_posts` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_terms.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_terms` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_users.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_users` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_comments.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_comments` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_links.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_links` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_options.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_options` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_posts.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_posts` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_terms.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_terms` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_users.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `kuku`.`wp_users` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_comments.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_comments` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_links.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_links` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_options.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_options` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_posts.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_posts` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_terms.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_terms` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_users.ibd' OS error: 203
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_users` because it could not be opened.
+2022-10-21 18:18:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-21 18:18:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-21 18:18:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-21 18:18:53 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-21 18:18:53 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-21 18:18:53 0 [Note] InnoDB: 10.4.25 started; log sequence number 13596406; transaction id 5887
+2022-10-21 18:18:53 1 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:18:53 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-10-21 18:18:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-21 18:18:53 1 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:18:53 1 [ERROR] InnoDB: Cannot open datafile for read-only: '.\kuku\wp_options.ibd' OS error: 203
+2022-10-21 18:18:53 1 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:18:53 1 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:18:53 1 [ERROR] InnoDB: Could not find a valid tablespace file for ``kuku`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:18:53 0 [Note] Server socket created on IP: '::'.
+2022-10-21 18:23:53 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2022-10-21 18:23:53 0 [Note] InnoDB: Uses event mutexes
+2022-10-21 18:23:53 0 [Note] InnoDB: Compressed tables use zlib 1.2.11
+2022-10-21 18:23:53 0 [Note] InnoDB: Number of pools: 1
+2022-10-21 18:23:53 0 [Note] InnoDB: Using SSE2 crc32 instructions
+2022-10-21 18:23:53 0 [Note] InnoDB: Initializing buffer pool, total size = 16M, instances = 1, chunk size = 16M
+2022-10-21 18:23:53 0 [Note] InnoDB: Completed initialization of buffer pool
+2022-10-21 18:23:53 0 [Note] InnoDB: Starting crash recovery from checkpoint LSN=13602084
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_comments.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_comments` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_links.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_links` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_options.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_options` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_posts.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_posts` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_terms.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_terms` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\keke\wp_users.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``keke`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `keke`.`wp_users` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_commentmeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_commentmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_commentmeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_comments.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_comments``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_comments` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_links.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_links``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_links` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_options.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_options``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_options` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_postmeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_postmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_postmeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_posts.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_posts``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_posts` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_relationships.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_relationships``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_relationships` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_term_taxonomy.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_term_taxonomy``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_term_taxonomy` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_termmeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_termmeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_termmeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_terms.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_terms``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_terms` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_usermeta.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_usermeta``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_usermeta` because it could not be opened.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 3 in a file operation.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: The error means the system cannot find the path specified.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: If you are installing InnoDB, remember that you must create directories yourself, InnoDB does not create them.
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Cannot open datafile for read-only: '.\wordpress\wp_users.ibd' OS error: 203
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Operating system error number 203 in a file operation.
+2022-10-21 18:23:53 0 [Note] InnoDB: Some operating system error numbers are described at https://mariadb.com/kb/en/library/operating-system-error-codes/
+2022-10-21 18:23:53 0 [ERROR] InnoDB: Could not find a valid tablespace file for ``wordpress`.`wp_users``. Please refer to https://mariadb.com/kb/en/innodb-data-dictionary-troubleshooting/ for how to resolve the issue.
+2022-10-21 18:23:53 0 [Warning] InnoDB: Ignoring tablespace for `wordpress`.`wp_users` because it could not be opened.
+2022-10-21 18:23:53 0 [Note] InnoDB: 128 out of 128 rollback segments are active.
+2022-10-21 18:23:53 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2022-10-21 18:23:53 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2022-10-21 18:23:53 0 [Note] InnoDB: Setting file 'C:\xampp\mysql\data\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2022-10-21 18:23:53 0 [Note] InnoDB: File 'C:\xampp\mysql\data\ibtmp1' size is now 12 MB.
+2022-10-21 18:23:53 0 [Note] InnoDB: Waiting for purge to start
+2022-10-21 18:23:53 0 [Note] InnoDB: 10.4.25 started; log sequence number 13602093; transaction id 5924
+2022-10-21 18:23:53 0 [Note] InnoDB: Loading buffer pool(s) from C:\xampp\mysql\data\ib_buffer_pool
+2022-10-21 18:23:53 0 [Note] Plugin 'FEEDBACK' is disabled.
+2022-10-21 18:23:53 0 [Note] Server socket created on IP: '::'.
